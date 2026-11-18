@@ -1,29 +1,96 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <title>Web Design</title>
+
     <style>
+
+        body {
+            margin: 0;
+            background-color: white;
+        }
+
         .header {
             width: 800px;
             height: 80px;
-            background-color: #e01f1f;
+            background-color: #25acefb6;
+            margin: 0 auto;
         }
+
         .nav {
             width: 800px;
             height: 40px;
-            background-color: #333333;
+            background-color: #381010;
+            margin: 0 auto;
         }
+
+        /* Main content container */
+        .content {
+            width: 800px;
+            margin: 0 auto;
+            display: flex;
+            gap: 0px;
+        }
+
+        .main {
+            width: 480px;
+            height: 265px;
+            background-color: #5ab3b6;
+            border: 2px solid #50b99f;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        .article {
+            width: 440px;
+            height: 100px;
+            background-color: #5a7f0b;
+            border: 2px solid #ed684d;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .section {
+            width: 440px;
+            height: 100px;
+            background-color: #bc154f;
+            border: 2px solid #9060df;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .aside {
+            flex: 1;          
+            width: 300px;
+            height: 265px;
+            background-color: #535283;
+            border: 2px solid #4a91bd;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        .footer {
+            width: 800px;
+            height: 55px;
+            background-color: #c824d6;
+            border: 2px solid #4fd3ab;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
     </style>
 </head>
-<body text-align="center">
-   <div class="header">
-        
-   </div>
-   <div class="nav">
-
-   </div>
+<body>
+    <div class="header"></div>
+    <div class="nav"></div>
+    <div class="content">
+        <div class="main">
+            <div class="article"></div>
+            <div class="section"></div>
+        </div>
+        <div class="aside"></div>
+    </div>
+    <div class="footer"></div>
 </body>
-
 </html>
